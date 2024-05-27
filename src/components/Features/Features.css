@@ -1,0 +1,32 @@
+.features {
+  padding: 20px;
+  text-align: center;
+  background-image: url("https://bit.ly/3Vj2L2t");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .feature {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.features .feature {
+  display: inline-block;
+  width: calc(33% - 20px);
+}
+
+@media (max-width: 600px) {
+  .features .feature {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+}

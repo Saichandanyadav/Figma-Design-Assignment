@@ -1,0 +1,15 @@
+.contactus {
+  padding: 20px;
+  text-align: center;
+  background-image: url("https://bit.ly/3Vj2L2t");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactus h1 {
+  margin-bottom: 20px;
+}
